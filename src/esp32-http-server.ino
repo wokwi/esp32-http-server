@@ -100,7 +100,7 @@ void setup(void) {
   });
 
   server.begin();
-  Serial.println("HTTP server started");
+  Serial.println("HTTP server started (http://localhost:8180)");
 }
 
 void loop(void) {
